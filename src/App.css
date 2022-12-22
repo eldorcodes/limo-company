@@ -36,3 +36,73 @@
     transform: rotate(360deg);
   }
 }
+.red {
+  color: red;
+}
+.center {
+  text-align: center;
+}
+.white {
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
+.gold {
+  color: greenyellow;
+}
+.passenger-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.passenger-col {
+  padding: 10px;
+  border: #282c34 0.3px solid;
+  width: 25%;
+  text-align: center;
+}
+.passenger-col{
+  cursor: pointer;
+}
+.red{
+  color: red;
+}
+.luggage-passengers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: large;
+}
+.vehicle-container {
+  
+}
+.space-top {
+  height: 10px;
+}
+.book-btn{
+  padding: 8px;
+  width: 90%;
+  border-width: 0ch;
+  background-color:rgb(28, 82, 209);
+  margin-bottom: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.book-btn-parent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.email-input {
+  border-bottom-right-radius: 20px;
+}
+.reset-btn {
+  border-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.request-btn {
+  margin: 3px;
+}
