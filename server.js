@@ -7,7 +7,7 @@ const stripe = require('stripe')(keys.STRIPE_SECRET_KEY)
 const nodemailer = require("nodemailer");
 const port = process.env.PORT || 4000;
 const path = require('path');
-
+/// changes made
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(cors());
